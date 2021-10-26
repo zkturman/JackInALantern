@@ -13,9 +13,75 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2021-10-04T21:25:32.546+01:00
-  initializedAtString: 2021-10-04T21:25:00.478+01:00
+  lastUpdatedAtString: 2021-10-26T17:51:15.649+01:00
+  initializedAtString: 2021-10-26T17:51:11.932+01:00
   log:
+  - commitID: fcc2221a3902623dc98c0990915e45330348f68f
+    mergeA: 
+    mergeB: 
+    authorName: Zack Turman
+    authorEmail: zkturman@gmail.com
+    commitEmail: zkturman@gmail.com
+    commitName: Zack Turman
+    summary: basic demo scene
+    description: adding some basic figures for the demo scene
+    timeString: 2021-10-04T21:34:02.000+01:00
+    commitTimeString: 2021-10-04T21:34:02.000+01:00
+    changes:
+    - path: Jack-in-a-Lantern\Assets\DemoLevel.unity
+      fullPath: C:\CSProjects\JackInALantern\Jack-in-a-Lantern\Assets\DemoLevel.unity
+      projectPath: Assets\DemoLevel.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Jack-in-a-Lantern\Library\ShaderCache\2\28171069306dd8980a3b0f8cf2a5e72d.bin
+      fullPath: C:\CSProjects\JackInALantern\Jack-in-a-Lantern\Library\ShaderCache\2\28171069306dd8980a3b0f8cf2a5e72d.bin
+      projectPath: Library\ShaderCache\2\28171069306dd8980a3b0f8cf2a5e72d.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Jack-in-a-Lantern\Library\ShaderCache\6\6092ff53b428dac2a5754c6de350804c.bin
+      fullPath: C:\CSProjects\JackInALantern\Jack-in-a-Lantern\Library\ShaderCache\6\6092ff53b428dac2a5754c6de350804c.bin
+      projectPath: Library\ShaderCache\6\6092ff53b428dac2a5754c6de350804c.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Jack-in-a-Lantern\Library\ShaderCache\6\668e81b42e2192f84c69ea79732840f9.bin
+      fullPath: C:\CSProjects\JackInALantern\Jack-in-a-Lantern\Library\ShaderCache\6\668e81b42e2192f84c69ea79732840f9.bin
+      projectPath: Library\ShaderCache\6\668e81b42e2192f84c69ea79732840f9.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Jack-in-a-Lantern\Library\ShaderCache\7\7b7aec3ee17ae979d095a57855137c77.bin
+      fullPath: C:\CSProjects\JackInALantern\Jack-in-a-Lantern\Library\ShaderCache\7\7b7aec3ee17ae979d095a57855137c77.bin
+      projectPath: Library\ShaderCache\7\7b7aec3ee17ae979d095a57855137c77.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Jack-in-a-Lantern\Library\ShaderCache\a\a498156a0471b732f7316c5b9556a30b.bin
+      fullPath: C:\CSProjects\JackInALantern\Jack-in-a-Lantern\Library\ShaderCache\a\a498156a0471b732f7316c5b9556a30b.bin
+      projectPath: Library\ShaderCache\a\a498156a0471b732f7316c5b9556a30b.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Jack-in-a-Lantern\Library\ShaderCache\b\b8fa5c616719957317b84dcf1bb9c6de.bin
+      fullPath: C:\CSProjects\JackInALantern\Jack-in-a-Lantern\Library\ShaderCache\b\b8fa5c616719957317b84dcf1bb9c6de.bin
+      projectPath: Library\ShaderCache\b\b8fa5c616719957317b84dcf1bb9c6de.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Jack-in-a-Lantern\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\CSProjects\JackInALantern\Jack-in-a-Lantern\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Jack-in-a-Lantern\UserSettings\EditorUserSettings.asset
+      fullPath: C:\CSProjects\JackInALantern\Jack-in-a-Lantern\UserSettings\EditorUserSettings.asset
+      projectPath: UserSettings\EditorUserSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: b47735986f8d14bc99c06b634407c824c29009c4
     mergeA: 
     mergeB: 

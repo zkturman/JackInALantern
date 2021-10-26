@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-10-04T20:16:43.969+01:00
-  initializedAtString: 2021-10-04T19:40:42.907+01:00
+  lastUpdatedAtString: 2021-10-26T17:52:19.695+01:00
+  initializedAtString: 2021-10-26T16:52:09.087+01:00
   currentGitRemote:
     name: origin
     url: https://github.com/zkturman/JackInALantern.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: main
-    tracking: origin/main
+    name: demoScenePrototype
+    tracking: 
   currentConfigBranch:
-    name: main
+    name: demoScenePrototype
     remote:
-      name: origin
-      url: https://github.com/zkturman/JackInALantern.git
-    trackingBranch: main
+      name: 
+      url: 
+    trackingBranch: 
   currentConfigRemote:
     name: origin
     url: https://github.com/zkturman/JackInALantern.git
