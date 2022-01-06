@@ -11,8 +11,8 @@ public class SittingPumpkinBehaviour : MonoBehaviour, IInteractable
     [SerializeField] private DialogueBehaviour dialogueManager;
     [SerializeField] private GameObject playerObject;
     [SerializeField] private GameObject keyObject;
-    public string DialogueString 
-    { 
+    public string DialogueString
+    {
         get => dialogueString;
         set => dialogueString = value;
     }
@@ -23,7 +23,7 @@ public class SittingPumpkinBehaviour : MonoBehaviour, IInteractable
 
     public void ActivatePumpkin()
     {
-        foreach(Light eye in eyeLights)
+        foreach (Light eye in eyeLights)
         {
             eye.enabled = true;
             isActive = true;
@@ -63,7 +63,7 @@ public class SittingPumpkinBehaviour : MonoBehaviour, IInteractable
 
     private void deactivatePumpkin()
     {
-        foreach(Light eye in eyeLights)
+        foreach (Light eye in eyeLights)
         {
             eye.enabled = false;
         }
@@ -88,7 +88,7 @@ public class SittingPumpkinBehaviour : MonoBehaviour, IInteractable
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame

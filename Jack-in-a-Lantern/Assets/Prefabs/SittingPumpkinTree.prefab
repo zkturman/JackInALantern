@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1919146649060935392}
   - component: {fileID: 1762643570597194658}
   - component: {fileID: 1967778737993829160}
-  - component: {fileID: 3283518302955949874}
+  - component: {fileID: 7587484299020371971}
   m_Layer: 0
   m_Name: SittingPumpkinTree
   m_TagString: Untagged
@@ -79,7 +79,7 @@ CapsuleCollider:
   m_Height: 13.23
   m_Direction: 1
   m_Center: {x: 0, y: 4.81, z: 0}
---- !u!114 &3283518302955949874
+--- !u!114 &7587484299020371971
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -88,7 +88,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1921081280803733402}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b17adac0f97628b4e882de05a1530acb, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d32562577412b544abd3546bfd38d0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   collideNoise: {fileID: 5586608830282298631}
@@ -628,7 +628,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0.12594788
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8358498952460058983, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
 --- !u!1 &587199377759828063 stripped
 GameObject:
@@ -650,6 +651,11 @@ Light:
   m_CorrespondingSourceObject: {fileID: 6488670560761018707, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
   m_PrefabInstance: {fileID: 477215455141069458}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &5543643397144092874 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5364229854805107288, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
+  m_PrefabInstance: {fileID: 477215455141069458}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &435861359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -662,3 +668,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 364cb89188c74ba4fb03551198c56cbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8954594087271837854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587199377759828063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 930f526b9c2f1b447b6a73452aa43dab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactNoise: {fileID: 5543643397144092874}
+  dialogueString: Show me three masks and I'll help you escape this nightmare.
+  secondaryDialogueString: I think this should help.
+  eyeLights:
+  - {fileID: 7839613115481054409}
+  - {fileID: 6670688197102762945}
+  dialogueManager: {fileID: 0}
+  playerObject: {fileID: 0}
+  keyObject: {fileID: 4431316260510883390, guid: 3859cb762a60c1844ab014c4abc35410, type: 3}

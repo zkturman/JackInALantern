@@ -264,7 +264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2886161024296568999}
   - component: {fileID: 2412355889323273174}
-  - component: {fileID: 8209627392115103137}
+  - component: {fileID: 8397043508196532876}
   m_Layer: 0
   m_Name: HangingPumpkinMonster
   m_TagString: Untagged
@@ -304,7 +304,7 @@ CapsuleCollider:
   m_Height: 3
   m_Direction: 1
   m_Center: {x: 0, y: 0.5, z: 0}
---- !u!114 &8209627392115103137
+--- !u!114 &8397043508196532876
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -313,12 +313,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8209627392115103150}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7025bb7fdd2db974cadf1bb4ca871de4, type: 3}
+  m_Script: {fileID: 11500000, guid: cb99762161b44c343bc4ff148fb0d275, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   collideNoise: {fileID: 5418863702544611964}
   interactNoise: {fileID: 8488383621784319299}
-  dialogueString: Press E to take staff.
+  dialogueString: 
   hasMagicStaff: 0
   dialogueManager: {fileID: 0}
   magicStaff: {fileID: 0}

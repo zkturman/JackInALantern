@@ -53,8 +53,6 @@
     <UnityVersion>2020.3.21f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\HangingPumpkinBehaviour.cs" />
-    <Compile Include="Assets\Scripts\TreeBehaviour.cs" />
     <Compile Include="Assets\Scripts\RotatingMaskBehaviour.cs" />
     <Compile Include="Assets\Scripts\Interfaces\ISearchTool.cs" />
     <Compile Include="Assets\Scripts\Interfaces\INavigator.cs" />
@@ -62,10 +60,8 @@
     <Compile Include="Assets\Packages\HandTorch\Scripts\RotateObject.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IControllable.cs" />
     <Compile Include="Assets\Scripts\MoviePlatform.cs" />
-    <Compile Include="Assets\Scripts\PlayerCollisionHandler.cs" />
     <Compile Include="Assets\Scripts\JIALMovie.cs" />
     <Compile Include="Assets\Scripts\LightFlickerBehaviour.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\IChoice.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IInteractable.cs" />
@@ -73,9 +69,10 @@
     <Compile Include="Assets\Packages\HandTorch\Scripts\ToggleLight.cs" />
     <Compile Include="Assets\Scripts\ChestPairBehaviour.cs" />
     <Compile Include="Assets\Packages\Laterns and candles\scripts\CameraFacing.cs" />
+    <Compile Include="Assets\Scripts\Interfaces\ICollidable.cs" />
     <Compile Include="Assets\Packages\Laterns and candles\scripts\ExtendedFlycam.cs" />
-    <Compile Include="Assets\Scripts\PlayerInteraction.cs" />
     <Compile Include="Assets\Scripts\PumpkinEyeBehaviour.cs" />
+    <Compile Include="Assets\MovieFinalBehaviour.cs" />
     <Compile Include="Assets\Scripts\KeypadButtonBehaviour.cs" />
     <Compile Include="Assets\Scripts\LevelMovieBehaviour.cs" />
     <Compile Include="Assets\Scripts\IChoiceMaker.cs" />
@@ -84,7 +81,6 @@
     <Compile Include="Assets\Scripts\KeypadDoorBehaviour.cs" />
     <Compile Include="Assets\Scripts\TorchPairBehaviour.cs" />
     <Compile Include="Assets\Keypad\Script\Playsound.cs" />
-    <Compile Include="Assets\Scripts\Interfaces\ICollidable.cs" />
     <Compile Include="Assets\Scripts\ForestMaskBehaviour.cs" />
     <Compile Include="Assets\Scripts\Interfaces\ISearchCharacter.cs" />
     <Compile Include="Assets\Scripts\TorchStartBehaviour.cs" />
@@ -92,11 +88,15 @@
     <Compile Include="Assets\Scripts\ForestEye.cs" />
     <Compile Include="Assets\Scripts\DialogueBehaviour.cs" />
     <Compile Include="Assets\Scripts\Interfaces\ICombatCharacter.cs" />
-    <Compile Include="Assets\Scripts\SittingPumpkinBehaviour.cs" />
     <Compile Include="Assets\Scripts\ChestKeyBehaviour.cs" />
     <Compile Include="Assets\Scripts\MovieSelection.cs" />
     <Compile Include="Assets\Scripts\TorchIgniteBehaviour.cs" />
-    <Compile Include="Assets\MovieFinalBehaviour.cs" />
+    <Compile Include="Assets\Scripts\HangingPumpkinBehaviour.cs" />
+    <Compile Include="Assets\Scripts\PlayerCollisionHandler.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\PlayerInteraction.cs" />
+    <Compile Include="Assets\Scripts\SittingPumpkinBehaviour.cs" />
+    <Compile Include="Assets\Scripts\TreeBehaviour.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMPro.cginc" />

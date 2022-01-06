@@ -1,4 +1,4 @@
- using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -14,10 +14,10 @@ public class HangingPumpkinBehaviour : MonoBehaviour, ICollidable, IInteractable
     [SerializeField] private GameObject startingTorches;
     private GameObject playerObject;
     private bool canCollectStaff = false;
-    public string DialogueString 
-    { 
-        get => dialogueString; 
-        set => dialogueString = value; 
+    public string DialogueString
+    {
+        get => dialogueString;
+        set => dialogueString = value;
     }
 
     public void GenerateInteraction()
@@ -71,7 +71,7 @@ public class HangingPumpkinBehaviour : MonoBehaviour, ICollidable, IInteractable
     // Start is called before the first frame update
     private void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -99,7 +99,7 @@ public class HangingPumpkinBehaviour : MonoBehaviour, ICollidable, IInteractable
 
     private void turnOffEyes()
     {
-        foreach(Light eye in eyeLights)
+        foreach (Light eye in eyeLights)
         {
             eye.enabled = false;
         }

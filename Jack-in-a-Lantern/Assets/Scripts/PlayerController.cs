@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour, IControllable
 {
     private bool paused = false;
-    public bool Paused 
-    { 
+    public bool Paused
+    {
         get => paused;
         set => paused = value;
     }

@@ -25,18 +25,18 @@ public class TreeBehaviour : MonoBehaviour, ICollidable
         if (collision.gameObject.TryGetComponent<IControllable>(out IControllable player))
         {
             StartCollision();
-        }   
+        }
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

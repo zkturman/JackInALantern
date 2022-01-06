@@ -1327,7 +1327,7 @@ PrefabInstance:
       objectReference: {fileID: 2048403898999098733}
     - target: {fileID: 8209627392115103150, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
       propertyPath: m_Name
-      value: StaffPumpkin
+      value: StaffPumpkin Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8303862703599430641, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1352,6 +1352,18 @@ PrefabInstance:
     - target: {fileID: 8303862703599430641, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.16742645
+      objectReference: {fileID: 0}
+    - target: {fileID: 8397043508196532876, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
+      propertyPath: hasMagicStaff
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8397043508196532876, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
+      propertyPath: interactNoise
+      value: 
+      objectReference: {fileID: 5534349349670870363}
+    - target: {fileID: 8397043508196532876, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
+      propertyPath: dialogueString
+      value: Press E to take magic staff.
       objectReference: {fileID: 0}
     - target: {fileID: 8551472060946488673, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
       propertyPath: m_LocalPosition.x

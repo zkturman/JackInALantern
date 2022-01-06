@@ -13,9 +13,10 @@ public class PlayerInteraction : MonoBehaviour
     private IInteractable currentInteraction;
     private void OnTriggerEnter(Collider other)
     {
-        if (other.TryGetComponent<IInteractable>(out currentInteraction)){
+        if (other.TryGetComponent<IInteractable>(out currentInteraction))
+        {
             currentInteraction.GenerateInteraction();
-        }    
+        }
     }
 
     private void OnTriggerExit(Collider other)
@@ -80,12 +81,12 @@ public class PlayerInteraction : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
