@@ -13,10 +13,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-11-05T15:08:53.749+00:00
-  initializedAtString: 2021-11-05T15:08:52.803+00:00
-  localBranches: []
-  remoteBranches: []
+  lastUpdatedAtString: 2022-01-06T12:32:45.510+00:00
+  initializedAtString: 2022-01-06T12:29:56.503+00:00
+  localBranches:
+  - name: demoScenePrototype
+    tracking: 
+  remoteBranches:
+  - name: origin/main
+    tracking: '[None]'
   remotes:
   - name: origin
     url: https://github.com/zkturman/JackInALantern.git
@@ -26,15 +30,27 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - demoScenePrototype
+    values:
+    - name: demoScenePrototype
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
-    - Values: []
+    - Values:
+      - main
     subKeyValues:
-    - Values: []
+    - Values:
+      - name: main
+        remote:
+          name: origin
+          url: https://github.com/zkturman/JackInALantern.git
+        trackingBranch: 
   configRemotes:
     keys:
     - origin
