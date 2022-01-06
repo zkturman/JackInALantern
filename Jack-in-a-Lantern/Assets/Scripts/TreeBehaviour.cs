@@ -5,7 +5,7 @@ using UnityEngine;
 public class TreeBehaviour : MonoBehaviour, ICollidable
 {
     [SerializeField] private AudioSource collideNoise;
-    public void PlayCollideSound()
+    public void StartCollision()
     {
         collideNoise.Play();
     }
@@ -24,7 +24,7 @@ public class TreeBehaviour : MonoBehaviour, ICollidable
     {
         if (collision.gameObject.TryGetComponent<IControllable>(out IControllable player))
         {
-            PlayCollideSound();
+            StartCollision();
         }   
     }
 

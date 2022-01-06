@@ -8,7 +8,7 @@ public class PlayerCollisionHandler : MonoBehaviour
     {
         if (collision.gameObject.TryGetComponent<ICollidable>(out ICollidable collideObject))
         {
-            collideObject.PlayCollideSound();
+            collideObject.StartCollision();
         }
     }
 }

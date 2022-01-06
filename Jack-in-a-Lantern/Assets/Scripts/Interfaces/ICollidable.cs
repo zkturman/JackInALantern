@@ -6,5 +6,5 @@ public interface ICollidable
 {
     public void UpdateThisStats();
     public void UpdateOtherStats(GameObject statsToChange);
-    public void PlayCollideSound();
+    public void StartCollision();
 }

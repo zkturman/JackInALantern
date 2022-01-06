@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour, IControllable
 {
-
+    private bool paused = false;
+    public bool Paused 
+    { 
+        get => paused;
+        set => paused = value;
+    }
     public INavigator ControlNavigator { get; set; }
 
     public void InteractWithObject(IInteractable objectToInteract)
@@ -26,16 +31,19 @@ public class PlayerController : MonoBehaviour, IControllable
 
     public void MoveKeyPress()
     {
-        if (ShouldMoveVertical(out float vertical))
+        if (!Paused)
         {
-            handleVerticalMoveKey(vertical);
+            if (ShouldMoveVertical(out float vertical))
+            {
+                handleVerticalMoveKey(vertical);
+            }
+            else
+            {
+                ControlNavigator.StopMovement();
+            }
+            ShouldMoveHorizontal(out float horizontal);
+            handleHorizontalMoveKey(horizontal);
         }
-        else
-        {
-            ControlNavigator.StopMovement();
-        }
-        ShouldMoveHorizontal(out float horizontal);
-        handleHorizontalMoveKey(horizontal);
     }
 
     private void handleVerticalMoveKey(float verticalInput)

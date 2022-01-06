@@ -474,39 +474,63 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 392865684817971111, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8571076
+      value: 0.8571075
       objectReference: {fileID: 0}
     - target: {fileID: 392865684817971111, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.14167503
+      value: 0.14167501
       objectReference: {fileID: 0}
     - target: {fileID: 392865684817971111, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.42310345
+      value: -0.42310342
       objectReference: {fileID: 0}
     - target: {fileID: 392865684817971111, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.25744575
+      value: -0.25744572
       objectReference: {fileID: 0}
     - target: {fileID: 434306092680278902, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9722202
+      value: 0.9722201
       objectReference: {fileID: 0}
     - target: {fileID: 434306092680278902, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.21701007
+      value: 0.21701005
       objectReference: {fileID: 0}
     - target: {fileID: 434306092680278902, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.080557704
+      value: -0.0805577
       objectReference: {fileID: 0}
     - target: {fileID: 434306092680278902, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.03471419
+      value: 0.034714185
       objectReference: {fileID: 0}
     - target: {fileID: 1060965312166820557, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
       propertyPath: m_Name
       value: PumpkinMonsterSitting
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385615514186875804, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0135277165
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385615514186875804, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.10949277
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385615514186875804, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99993646
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385615514186875804, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0000010059258
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385615514186875804, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.011271389
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385615514186875804, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.00000020188823
       objectReference: {fileID: 0}
     - target: {fileID: 5364229854805107288, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
       propertyPath: m_Pitch
@@ -576,18 +600,65 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 8358498952460058983, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
+      propertyPath: dialogueString
+      value: Show me three masks, and I'll show you the way out of this nightmare.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358498952460058983, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
+      propertyPath: eyeLights.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358498952460058983, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
+      propertyPath: eyeLights.Array.data[0]
+      value: 
+      objectReference: {fileID: 7839613115481054409}
+    - target: {fileID: 8358498952460058983, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
+      propertyPath: eyeLights.Array.data[1]
+      value: 
+      objectReference: {fileID: 6670688197102762945}
+    - target: {fileID: 8358498952460058983, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
+      propertyPath: secondaryDialogueString
+      value: Take this key, I have a feeling it might help (Press E).
+      objectReference: {fileID: 0}
     - target: {fileID: 9202389234492715155, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.0025773856
+      value: 0.0025773859
       objectReference: {fileID: 0}
     - target: {fileID: 9202389234492715155, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.12594786
+      value: 0.12594788
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
+--- !u!1 &587199377759828063 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1060965312166820557, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
+  m_PrefabInstance: {fileID: 477215455141069458}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6931215957761490135 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7399353565026123333, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
   m_PrefabInstance: {fileID: 477215455141069458}
   m_PrefabAsset: {fileID: 0}
+--- !u!108 &7839613115481054409 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 7661905521670053467, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
+  m_PrefabInstance: {fileID: 477215455141069458}
+  m_PrefabAsset: {fileID: 0}
+--- !u!108 &6670688197102762945 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 6488670560761018707, guid: c1a79ccd0b265f041841cd09666fcc00, type: 3}
+  m_PrefabInstance: {fileID: 477215455141069458}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &435861359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587199377759828063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 364cb89188c74ba4fb03551198c56cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

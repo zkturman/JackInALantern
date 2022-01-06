@@ -3146,8 +3146,18 @@ m_PackageAssets:
       versions:
         all:
         - 1.0.1
+        - 1.1.0-pre.7
+        - 1.1.0-pre.8
+        - 1.1.0-pre.9
+        - 1.1.0-pre.10
+        - 1.1.0-pre.11
         compatible:
         - 1.0.1
+        - 1.1.0-pre.7
+        - 1.1.0-pre.8
+        - 1.1.0-pre.9
+        - 1.1.0-pre.10
+        - 1.1.0-pre.11
         verified: 1.0.1
       dependencies:
       - name: com.unity.modules.unitywebrequest
@@ -3168,7 +3178,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637604883250000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3215,6 +3225,7 @@ m_PackageAssets:
         - 2.0.0-preview.2
         - 2.0.0
         - 2.0.1-preview.1
+        - 2.0.2
         compatible:
         - 1.0.0-preview.2
         - 1.0.0-preview.3
@@ -3226,7 +3237,8 @@ m_PackageAssets:
         - 2.0.0-preview.2
         - 2.0.0
         - 2.0.1-preview.1
-        verified: 2.0.0
+        - 2.0.2
+        verified: 2.0.2
       dependencies: []
       resolvedDependencies: []
       keywords: []

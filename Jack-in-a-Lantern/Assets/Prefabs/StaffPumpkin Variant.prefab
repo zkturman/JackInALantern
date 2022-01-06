@@ -127,20 +127,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!136 &2015669540
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5255500768562068918}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 2
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!1 &4821820483010781607
 GameObject:
   m_ObjectHideFlags: 0
@@ -1045,7 +1031,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3623820167369476923, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.71444196
+      value: 0.7144421
       objectReference: {fileID: 0}
     - target: {fileID: 3623820167369476923, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1057,7 +1043,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3623820167369476923, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.046198796
+      value: 0.046198804
       objectReference: {fileID: 0}
     - target: {fileID: 3811619083656206872, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1149,7 +1135,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4385983547242204679, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000011641531
+      value: 5.820764e-10
       objectReference: {fileID: 0}
     - target: {fileID: 4704346998356920323, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1201,7 +1187,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5624459689239000120, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.032179657
+      value: -0.032179646
       objectReference: {fileID: 0}
     - target: {fileID: 5624459689239000120, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1209,19 +1195,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5624459689239000120, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.028334092
+      value: -0.028334102
       objectReference: {fileID: 0}
     - target: {fileID: 5624459689239000120, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.000011675291
+      value: 0.000011678431
       objectReference: {fileID: 0}
     - target: {fileID: 5624459689239000120, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.007475882
+      value: -0.00747585
       objectReference: {fileID: 0}
     - target: {fileID: 5624459689239000120, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000087801825
+      value: 0.000087801105
       objectReference: {fileID: 0}
     - target: {fileID: 7228537089857003351, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1308,6 +1294,10 @@ PrefabInstance:
       value: 0.1259568
       objectReference: {fileID: 0}
     - target: {fileID: 8209627392115103137, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
+      propertyPath: magicStaff
+      value: 
+      objectReference: {fileID: 4821820483010781607}
+    - target: {fileID: 8209627392115103137, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
       propertyPath: hasMagicStaff
       value: 1
       objectReference: {fileID: 0}
@@ -1323,9 +1313,21 @@ PrefabInstance:
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8209627392115103137, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
+      propertyPath: eyeLights.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209627392115103137, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
+      propertyPath: eyeLights.Array.data[0]
+      value: 
+      objectReference: {fileID: 3389667796243075311}
+    - target: {fileID: 8209627392115103137, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
+      propertyPath: eyeLights.Array.data[1]
+      value: 
+      objectReference: {fileID: 2048403898999098733}
     - target: {fileID: 8209627392115103150, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
       propertyPath: m_Name
-      value: StaffPumpkin Variant
+      value: StaffPumpkin
       objectReference: {fileID: 0}
     - target: {fileID: 8303862703599430641, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1476,3 +1478,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8209627392115103150, guid: 4b08634e01fc2374eba97d4243d0ab4d, type: 3}
   m_PrefabInstance: {fileID: 4107633086688749592}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &2015669540
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5255500768562068918}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 2
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.5, z: 0}

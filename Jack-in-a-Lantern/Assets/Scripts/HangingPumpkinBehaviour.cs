@@ -43,7 +43,7 @@ public class HangingPumpkinBehaviour : MonoBehaviour, ICollidable, IInteractable
         interactNoise.Play();
     }
 
-    public void PlayCollideSound()
+    public void StartCollision()
     {
         collideNoise.Play();
     }
